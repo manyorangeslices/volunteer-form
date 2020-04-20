@@ -1,0 +1,43 @@
+html {
+  font-family: "Noto Serif", serif;
+}
+
+.no-auto-margins {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+fieldset {
+  border: 0;
+}
+
+.section-primary {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+.flag-optional {
+  color: #70ad55;
+}
+
+hr {
+  border-color: #70ad55;
+  opacity: .3;
+}
+
+input,
+select,
+textarea,
+input[type="radio"] + label::before,
+input[type="checkbox"] + label::before {
+  border-color: #6e8c62;
+}
+
+textarea {
+  min-height: 10em;
+}
+
+.btn {
+  background-color: #6e8c62;
+  border-color: #6e8c62;
+}
